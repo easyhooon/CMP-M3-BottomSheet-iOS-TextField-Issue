@@ -1,3 +1,7 @@
+## YouTrack
+
+https://youtrack.jetbrains.com/issue/CMP-7670/iOS-Korean-text-input-shows-decomposed-syllables-in-TextField-within-M3-BottomSheet
+
 ## Android
 
 https://github.com/user-attachments/assets/730d5ce5-0cbe-4abe-89b6-b1bf1c0e8b26
