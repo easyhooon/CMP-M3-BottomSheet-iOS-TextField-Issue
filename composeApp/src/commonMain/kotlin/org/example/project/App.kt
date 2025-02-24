@@ -26,6 +26,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusManager
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.White
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.input.ImeAction
@@ -108,7 +109,10 @@ fun CustomTextField(
         maxLines = 1,
         decorationBox = { innerTextField ->
             if (value.isEmpty()) {
-                Text(text = placeholder)
+                Text(
+                    text = placeholder,
+                    color = Color.LightGray,
+                )
             }
             innerTextField()
         },
