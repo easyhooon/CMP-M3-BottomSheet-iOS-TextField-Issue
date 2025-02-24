@@ -1,3 +1,12 @@
+## Android
+
+https://github.com/user-attachments/assets/730d5ce5-0cbe-4abe-89b6-b1bf1c0e8b26
+
+## iOS
+
+https://github.com/user-attachments/assets/e7287bac-a90c-496e-b7df-c0460b473a7f
+
+
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
